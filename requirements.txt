@@ -1,0 +1,6 @@
+# QR Code & Barcode Reader - Dependencies
+# Install all at once with:  pip install -r requirements.txt
+
+opencv-python   # Camera feed, drawing bounding boxes, and displaying the window
+pyzbar          # Decodes QR codes and barcodes (wraps the ZBar C library)
+numpy           # Array operations used for polygon point handling
